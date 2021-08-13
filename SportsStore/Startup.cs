@@ -47,6 +47,7 @@ namespace SportsStore
             {
                 endpoints.MapDefaultControllerRoute();
             });
+            SeeData.EnsurePopulated(app);
         }
     }
 }
