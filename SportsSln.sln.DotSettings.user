@@ -4,5 +4,6 @@
     &lt;TestId&gt;xUnit::F862620C-1C6D-4444-9573-E804D67737E5::net5.0::SportsStore.Tests.ProductControllerTest.CanUseRepository&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::F862620C-1C6D-4444-9573-E804D67737E5::net5.0::SportsStore.Tests.ProductControllerTest.CanPaginate&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::F862620C-1C6D-4444-9573-E804D67737E5::net5.0::SportsStore.Tests.PageLinkTagHelperTests.CanGeneratePageLinks&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F862620C-1C6D-4444-9573-E804D67737E5::net5.0::SportsStore.Tests.ProductControllerTest.CanSendPaginationViewModel&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
