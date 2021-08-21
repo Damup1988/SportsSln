@@ -140,3 +140,4 @@ D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore.Tests\obj\
 D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore.Tests\obj\Debug\net5.0\ref\SportsStore.Tests.dll
 D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore.Tests\obj\Debug\net5.0\SportsStore.Tests.pdb
 D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore.Tests\obj\Debug\net5.0\SportsStore.Tests.genruntimeconfig.cache
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore.Tests\bin\Debug\net5.0\libman.json
