@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.Mvc.ViewComponents;
 using Moq;
 using SportsStore.Components;
@@ -31,6 +32,34 @@ namespace SportsStore.Tests
 
             // Assert
             Assert.True(Enumerable.SequenceEqual(new string[] {"Apples", "Oranges", "Plums"}, results));
+        }
+
+        [Fact]
+        public void IndicatesSelectedCategory()
+        {
+            // Arrange
+            string categoryToSelect = "Apples";
+            Mock<IStoreRepository> mock = new Mock<IStoreRepository>();
+            mock.Setup(m => m.Products).Returns((new Product[]
+            {
+                new Product {ProductID = 1, Name = "P1", Category = "Apples"},
+                new Product {ProductID = 2, Name = "P2", Category = "Oranges"}
+            }).AsQueryable<Product>());
+            NavigationMenuViewComponent target = new NavigationMenuViewComponent(mock.Object);
+            target.ViewComponentContext = new ViewComponentContext
+            {
+                ViewContext = new ViewContext
+                {
+                    RouteData = new Microsoft.AspNetCore.Routing.RouteData()
+                }
+            };
+            target.RouteData.Values["category"] = categoryToSelect;
+
+            // Act
+            string result = (string) (target.Invoke() as ViewViewComponentResult).ViewData["SelectedCategory"];
+
+            // Assert
+            Assert.Equal(categoryToSelect, result);
         }
     }
 }
