@@ -75,4 +75,3 @@ D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\
 D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\Razor\Pages\_CartLayout.cshtml.g.cs
 D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
 D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
-D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\Razor\Pages\SomePage.cshtml.g.cs
