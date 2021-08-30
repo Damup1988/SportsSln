@@ -34,6 +34,7 @@ namespace SportsStore
                 opts.UseSqlServer(Configuration["ConnectionStrings:SportsStoreConnection"]);
             });
             services.AddScoped<IStoreRepository, EFStoreRepository>();
+            services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -56,6 +57,7 @@ namespace SportsStore
                 endpoints.MapControllerRoute("pagination", "Products/Page{productPage}",
                     new {Controller = "Home", Action = "Index", productPage = 1});
                 endpoints.MapDefaultControllerRoute();
+                endpoints.MapRazorPages();
             });
             SeeData.EnsurePopulated(app);
         }
