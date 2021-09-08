@@ -12,5 +12,7 @@
     &lt;TestId&gt;xUnit::F862620C-1C6D-4444-9573-E804D67737E5::net5.0::SportsStore.Tests.HomeControllerTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::F862620C-1C6D-4444-9573-E804D67737E5::net5.0::SportsStore.Tests.CartTests.CanAddNewLines&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::F862620C-1C6D-4444-9573-E804D67737E5::net5.0::SportsStore.Tests.CartTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F862620C-1C6D-4444-9573-E804D67737E5::net5.0::SportsStore.Tests.CartPageTests.CanLoadCart&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F862620C-1C6D-4444-9573-E804D67737E5::net5.0::SportsStore.Tests.CartPageTests.CanUpdateCart&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
