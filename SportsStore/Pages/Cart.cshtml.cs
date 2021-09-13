@@ -13,23 +13,21 @@ namespace SportsStore.Pages
         public Cart Cart { get; set; }
         public string ReturnUrl { get; set; }
 
-        public CartModel(IStoreRepository repo)
+        public CartModel(IStoreRepository repo, Cart cartService)
         {
             _repository = repo;
+            Cart = cartService;
         }
 
         public void OnGet(string returnUrl)
         {
             ReturnUrl = returnUrl ?? "/";
-            Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
         }
 
         public IActionResult OnPost(long productId, string returnUrl)
         {
             Product product = _repository.Products.FirstOrDefault(p => p.ProductID == productId);
-            Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
             Cart.AddItem(product, 1);
-            HttpContext.Session.SetJson("cart", Cart);
             return RedirectToPage(new {returnUrl = returnUrl});
         }
     }
