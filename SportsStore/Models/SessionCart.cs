@@ -1,7 +1,7 @@
 ﻿using System;
+using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-using Newtonsoft.Json;
 using SportsStore.Infrastructure;
 
 namespace SportsStore.Models
