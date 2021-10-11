@@ -78,3 +78,17 @@ D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\
 D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\Razor\Views\Shared\Components\CartSummary\Default.cshtml.g.cs
 D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\Razor\Views\Order\Checkout.cshtml.g.cs
 D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\Razor\Pages\Completed.cshtml.g.cs
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\SportsStore.RazorComponent.input.cache
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\RazorDeclaration\Pages\Admin\AdminLayout.razor.g.cs
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\RazorDeclaration\Pages\Admin\Orders.razor.g.cs
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\RazorDeclaration\Pages\Admin\Products.razor.g.cs
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\RazorDeclaration\Pages\Admin\Routed.razor.g.cs
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\RazorDeclaration\Pages\Admin\_Imports.razor.g.cs
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\SportsStore.RazorComponent.output.cache
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\RazorDeclaration\SportsStore.dll
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\Razor\Pages\Admin\AdminLayout.razor.g.cs
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\Razor\Pages\Admin\Orders.razor.g.cs
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\Razor\Pages\Admin\Products.razor.g.cs
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\Razor\Pages\Admin\Routed.razor.g.cs
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\Razor\Pages\Admin\_Imports.razor.g.cs
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\Razor\Pages\Admin\Index.cshtml.g.cs
