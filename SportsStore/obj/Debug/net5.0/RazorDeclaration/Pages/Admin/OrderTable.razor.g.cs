@@ -53,22 +53,7 @@ using SportsStore.Models;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 2 "D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\Pages\Admin\Orders.razor"
-using SportsStore.Migrations;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 3 "D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\Pages\Admin\Orders.razor"
-using SportsStore.Repository;
-
-#line default
-#line hidden
-#nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/orders")]
-    public partial class Orders : OwningComponentBase<SportsStore.Repository.IOrderRepository>
+    public partial class OrderTable : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -76,35 +61,19 @@ using SportsStore.Repository;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 13 "D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\Pages\Admin\Orders.razor"
+#line 37 "D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\Pages\Admin\OrderTable.razor"
  
-    public IOrderRepository Repository => Service;
+    [Parameter]
+    public string TableTitle { get; set; } = "Orders";
+    
+    [Parameter]
+    public IEnumerable<Order> Orders { get; set; }
 
-    public IEnumerable<Order> AllOrders { get; set; }
-    public IEnumerable<Order> UnshippedOrders { get; set; }
-    public IEnumerable<Order> ShippedOrders { get; set; }
-
-    protected async override Task OnInitializedAsync()
-    {
-        await UpdateData();
-    }
-
-    public async Task UpdateData()
-    {
-        AllOrders = await Repository.Orders.ToListAsync();
-        UnshippedOrders = AllOrders.Where(o => !o.Shipped);
-        ShippedOrders = AllOrders.Where(o => o.Shipped);
-    }
-
-    public void ShipOrder(int id) => UpdateOrder(id, true);
-    public void ResetOrder(int id) => UpdateOrder(id, false);
-
-    private void UpdateOrder(int id, bool shipValue)
-    {
-        Order o = Repository.Orders.FirstOrDefault(o => o.OrderID == id);
-        o.Shipped = shipValue;
-        Repository.SaveOrder(o);
-    }
+    [Parameter]
+    public string ButtonLabel { get; set; } = "Ship";
+    
+    [Parameter]
+    public EventCallback<int> OrderSelected { get; set; }
 
 #line default
 #line hidden
