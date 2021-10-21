@@ -96,3 +96,5 @@ D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\
 D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\Razor\Pages\Admin\OrderTable.razor.g.cs
 D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\RazorDeclaration\Pages\Admin\Details.razor.g.cs
 D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\Razor\Pages\Admin\Details.razor.g.cs
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\RazorDeclaration\Pages\Admin\Editor.razor.g.cs
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\Razor\Pages\Admin\Editor.razor.g.cs
