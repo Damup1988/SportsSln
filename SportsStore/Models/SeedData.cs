@@ -5,7 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace SportsStore.Models
 {
-    public class SeeData
+    public static class SeedData
     {
         public static void EnsurePopulated(IApplicationBuilder app)
         {
