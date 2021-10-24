@@ -70,14 +70,25 @@ using SportsStore.Repository;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 42 "D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\Pages\Admin\Products.razor"
+#line 45 "D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\Pages\Admin\Products.razor"
  
     public IStoreRepository Repository => Service;
     public IEnumerable<Product> ProductData { get; set; }
 
     protected async override Task OnInitializedAsync()
     {
+        await UpdateData();
+    }
+
+    protected async Task UpdateData()
+    {
         ProductData = await Repository.Products.ToListAsync();
+    }
+
+    public async Task DeleteProduct(Product p)
+    {
+        Repository.DeleteProduct(p);
+        await UpdateData();
     }
 
     public string GetDetailsUrl(long id) => $"/admin/products/details/{id}";
