@@ -98,3 +98,8 @@ D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\
 D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\Razor\Pages\Admin\Details.razor.g.cs
 D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\RazorDeclaration\Pages\Admin\Editor.razor.g.cs
 D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\obj\Debug\net5.0\Razor\Pages\Admin\Editor.razor.g.cs
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+D:\_ONEDRIVE\OneDrive\_Coding\_Projects\Freeman\SportsSln\SportsStore\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
