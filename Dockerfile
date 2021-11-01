@@ -1,7 +1,7 @@
 ﻿FROM mcr.microsoft.com/dotnet/core/aspnet:5.0
-FROM mcr.microsoft.com/dotnet/core/sdk:5.0
+FROM mcr.microsoft.com/dotnet/sdk:5.0
 
-COPY /bin/Release/netcoreapp5.0/publish/ SportsStore/
+COPY SportsStore/bin/Release/net5.0/publish/ SportsStore/
 
 ENV ASPNETCORE_ENVIRONMENT Production
 
